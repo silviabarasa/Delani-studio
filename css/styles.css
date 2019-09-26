@@ -1,0 +1,26 @@
+.home{
+    background-image:url("..//assets/backgrounds/h_img.jpg");
+background-size: cover;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.logo{
+    text-align: center;
+    color: whitesmoke;
+padding-top: 10%;
+}
+P {
+    font-size: 8px;
+}
+.img {
+    text-align: center;
+    padding-top: 15%;
+}
+.part2{
+    text-align: center;
+    padding-top: 5%;
+}
+P {
+    text-align: center;
+
+}
