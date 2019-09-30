@@ -1,5 +1,5 @@
 .home{
- background-image:url("..//assets/backgrounds/h_img.jpg");
+ background-image:url("/assets/backgrounds/h_img.jpg");
 background-size: cover;
 background-size: 100%;
 background-repeat: no-repeat;
@@ -8,7 +8,10 @@ height: 100vh;
 .logo{
     text-align: center;
     color: whitesmoke;
-padding-top: 10%;
+padding-top: 14%;
+}
+.mouse{
+    padding-top: 50%;
 }
 P {
     font-size: 8px;
@@ -54,6 +57,7 @@ P {
      height: 300px;
      background-size: cover;
      text-align: center;
+     color: whitesmoke;
  }
  .content{
      text-align: center;
@@ -61,4 +65,25 @@ P {
  .socialicons{
      text-align: center;
      padding-top: 5%;
+ }
+ .footer{
+     padding-top: 2%;
+ }
+ p {
+     font-size: 15px;
+ }
+ h1 {
+     font-size: 60px
+ }
+ h2 {
+     font-size: 30px;
+ }
+ #p1{
+     display: none;
+ }
+ #p2{
+     display: none;
+ }
+ #p3{
+     display: none;
  }
