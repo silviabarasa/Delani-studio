@@ -87,3 +87,9 @@ P {
  #p3{
      display: none;
  }
+ #f1, #f2, #f3, #f4, #f5, #f6, #f7,#f8{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
