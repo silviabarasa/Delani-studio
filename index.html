@@ -2,7 +2,9 @@
 <html>
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">  
+  <link href="css/styles.css" rel="stylesheet" type="text/css"> 
+  <script   src="./js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script> 
  <title> Delani studio</title>
 </head>
     <body>
@@ -32,24 +34,20 @@
 <div class="content"><br><br>
 <h3>WHAT WE DO</h3>
 <div class="row">
-<div class="col-sm-4">
-<div class="designlogo">
-<img src="assets/services_icons/design_icon.png">
-</div>
-<div class="design">
-<h4>Design</h4>
-<div id="p1">
-<P>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</P></div>
-</div>
-</div>
-<div class="col-sm-4">
-<img src="assets/services_icons/dev_icon.png">
+        <div class="col-md-4 design">
+                      <img src="./assets/services_icons/design_icon.png" alt="" id="designlogo">
+                      <h4>DESIGN</h4>
+                      <p id="p1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                         Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+        </div>
+<div class="col-sm-4 development  ">
+<img src="assets/services_icons/dev_icon.png" id="dev-image">
 <h4>Development</h4>
 <div id="p2">
     <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p></div>
 </div>
-<div class="col-sm-4">
-<img src="assets/services_icons/product_icon.png">
+<div class="col-sm-4 prdct">
+<img src="assets/services_icons/product_icon.png" id="img3">
 <h4>Product management</h4>
 <div id="p3">
 <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p></div>
@@ -60,39 +58,64 @@
 <h3>PORTFOLIO</h3>
 <div class="row">
         <div class="col-md-3">
+            <div class="part9">
             <img src="assets/portfolio/work4.jpg">
+            <h5 id="f1">first</h5>
+        </div>
         </div>
         <div class="col-md-3">
+            <div class="part2">
             <img src="assets/portfolio/work3.jpg">
+            <h6 id="f2">second</h6>
+       </div>
         </div>
         <div class="col-md-3">
+            <div class="part9">
             <img src="assets/portfolio/work2.jpg">
+            <h6 id="f3">third</h6>
         </div>
+        </div>
+
         <div class="col-md-3">
+            <div class="part4">
             <img src="assets/portfolio/work1.jpg">
+            <h6 id="f4">fourth</h6>
+       </div>
         </div>
       </div>
       <div class="row">
           <div class="col-md-3">
+              <div class="part5">
               <img src="assets/portfolio/work5.jpg">
-          </div>
+              <h6 id="f5">fifth</h6>
+         </div>
+            </div>
           <div class="col-md-3">
+              <div class="part6">
               <img src="assets/portfolio/work6.jpg">
+         <h6 id="f6">sixth</h6>
+        </div>   
+        </div>
+          <div class="col-md-3">
+              <div class="part7">
+                <img src="assets/portfolio/work7.jpg">
+               <h7 id="f7">seventh</h7>
+            </div>
           </div>
           <div class="col-md-3">
-              <img src="assets/portfolio/work7.jpg">
-          </div>
-          <div class="col-md-3">
+              <div class="part8">
               <img src="assets/portfolio/work8.jpg">
+              <h6 id="f8">eight</h6>h8>
           </div>
         </div>
-        </div><br> <br><br>
+        </div><br><br><br>
 <div class="cimage"><br><br>
 <h4>CONTACT US<h4>
 <form>
 <input style="background-color:transparent;" type="text" placeholder="Name" name="Name" required>
 <input style="background-color: transparent;" type="text" placeholder="Email" name="email" required><br>
 <input style="background-color: transparent;" type="text" placeholder="Your message here..." name="message" required>
+<input type="submit"  onclick="myFunction()" style="align-right;"></input>
 </form>
 </div>
 <div class="socialicons">
@@ -109,7 +132,6 @@
 <div class="footer">
     <p>DELANI STUDIO <br>2019</p>
     </div>
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+
 </body>
 </html>
