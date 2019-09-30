@@ -1,0 +1,14 @@
+$(document).ready(function(){
+ $(".design").click(function(){
+   $("#design-logo").toggle()
+   $("#p1").toggle()
+ }); 
+ $(".development").click(function(){
+  $("#dev-image").toggle()
+  $("#p2").toggle()
+}); 
+$(".prdct").click(function(){
+  $("#img3").toggle()
+  $("#p3").toggle()
+}); 
+});  
